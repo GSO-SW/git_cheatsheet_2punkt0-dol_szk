@@ -9,9 +9,22 @@ In [diesem cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Che
 
 ## TODO2
 - Fachbegriffe OOP erklären (mit Beispielen)
-  - abstract (Klassen)
+  - abstract (Klassen) 
+  -> Können nicht inizialisiert werden, sondern nur an Kinder-Klassen vererbt werden. 
+	Beispiel: 
+	abstract class Mensch 
+	{
+	// Code
+	}
+	
   - abstract (Methoden)
+  -> können nur innerhalb von abstact Klassen implementiert werden und müssen von erbenden, NICHT abstract, 
+	 Klassen mit "override" einen Methodenkörper gegeben werden.
+	 Beispiel für den Methodenkopf:
+	 public abstract void InformationenAusgeben();
+	 
   - virtual
+	-> haben 
   - override
   - Polymorphie
 - Wie überschreibt man die Methode `virtual string ToString()`?
