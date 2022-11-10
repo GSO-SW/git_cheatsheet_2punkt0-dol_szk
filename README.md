@@ -15,3 +15,9 @@ In [diesem cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Che
   - override
   - Polymorphie
 - Wie überschreibt man die Methode `virtual string ToString()`?
+
+## Git
+- Begriffe
+  - repository (Ist praktisch ein Ordner oder ein Projekt wo dazu gehörige Dateien verwaltet werden)
+  - branch (Eine Bezeichnung bzw. ein Namensschild welches auf einen commit zeigt)
+  - 
