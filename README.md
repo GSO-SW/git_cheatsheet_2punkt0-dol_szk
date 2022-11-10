@@ -28,4 +28,4 @@ In [diesem cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Che
   - git commit -m "text" (Fügt der Repository einen neuen Commit hinzu)
   - git checkout <commit/branch> (Geht zu dem angegebenen Commit / Branch)
   - git merge <branch> (Fügt 2 Branches zu einem Commit zusammen)
-  - git 
+  - git log (Zeigt den gesammten verlauf von der Repository an (commits, merges usw.))
