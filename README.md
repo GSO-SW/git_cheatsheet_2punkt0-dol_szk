@@ -24,7 +24,33 @@ In [diesem cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Che
 	 public abstract void InformationenAusgeben();
 	 
   - virtual
-	-> haben 
+  -> virtual methoden haben einen Methodenkörper und können von erbenden Klassen mit "override" einen
+	 anderen Methodenkörper gegeben werden.
+	 Beispiel:
+	 public virtual string InformationenAusgeben()
+	 {
+		Console.WriteLine("Lorem Ipsum");
+	 }
+	   
   - override
+  -> kann bei geerbten virtual methoden und muss bei geerbten abstract methoden verwendet werden, um diesen
+     einen eigenen Methodenkörper zu geben.
+	 Beispiel:
+	 public override string InformationenAusgebenAusgeben()
+	 {
+		Console.WriteLine("Lorem Ipsum.");
+	 }
+	 
   - Polymorphie
+  -> Unterschiedliche Klassen können in der gleichen Liste gespeichert werden, weil sie alle
+	 von der gleichen Eltern-Klasse erben.
+  
 - Wie überschreibt man die Methode `virtual string ToString()`?
+-> mit dem Schlüsselwort "override":
+	public override string ToString()
+	{
+		return "Lorem Ipsum";
+	}
+	
+	
+	
