@@ -29,3 +29,4 @@ In [diesem cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Che
   - git checkout <commit/branch> (Geht zu dem angegebenen Commit / Branch)
   - git merge <branch> (Fügt 2 Branches zu einem Commit zusammen)
   - git log (Zeigt den gesammten verlauf von der Repository an (commits, merges usw.))
+  - git branch <branch-name> (Fügt einen neuen Branch hinzu)
