@@ -10,7 +10,7 @@ In [diesem cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Che
 ## TODO2
 - Fachbegriffe OOP erklären (mit Beispielen)
   - abstract (Klassen) 
-  -> Können nicht inizialisiert werden, sondern nur an Kinder-Klassen vererbt werden. 
+  -> Können nicht instanziiert werden, sondern nur an Kinder-Klassen vererbt werden. 
 	Beispiel: 
 	abstract class Mensch 
 	{
