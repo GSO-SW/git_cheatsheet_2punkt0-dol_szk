@@ -85,6 +85,6 @@ In [diesem cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Che
 
 
 ## Config Befehle
-git config --global user.name "[name]"
-git config --global user.email "[email address]"
-git config --global color.ui auto
+ - git config --global user.name "[name]"
+ - git config --global user.email "[email address]"
+ - git config --global color.ui auto
