@@ -15,3 +15,12 @@ In [diesem cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Che
   - override
   - Polymorphie
 - Wie überschreibt man die Methode `virtual string ToString()`?
+
+## Giovanni
+git config --global user.name "[name]"
+git config --global user.email "[email address]"
+git config --global color.ui auto
+git branch [branch name]
+git checkout [branch name]
+git merge [branch]
+git branch -d [branch name]
