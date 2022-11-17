@@ -16,6 +16,7 @@ In [diesem cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Che
   - Polymorphie
 - Wie überschreibt man die Methode `virtual string ToString()`?
 
+
 ## Git
 - Begriffe
   - repository (Ist praktisch ein Ordner oder ein Projekt wo dazu gehörige Dateien verwaltet werden)
@@ -42,3 +43,8 @@ In [diesem cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Che
   - git fetch (Lädt alle Dateien aus der bereits verknüpften Online Repository runter)
   - git pull (Macht im Grunde genommen das selbe wie "git fetch" nur dass die Dateien mit den Lokalen gemerged werden)
   - git revert (...)
+
+## Config Befehle
+git config --global user.name "[name]"
+git config --global user.email "[email address]"
+git config --global color.ui auto
