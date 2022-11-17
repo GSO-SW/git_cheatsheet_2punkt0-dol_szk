@@ -9,15 +9,54 @@ In [diesem cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Che
 
 ## TODO2
 - Fachbegriffe OOP erklären (mit Beispielen)
-  - abstract (Klassen)
+
+
+## OOP Begriffe
+  - abstract (Klassen) 
+  -> Können nicht instanziiert werden, sondern nur an Kinder-Klassen vererbt werden. 
+	Beispiel: 
+	abstract class Mensch 
+	{
+	// Code
+	}
+	
   - abstract (Methoden)
+  -> können nur innerhalb von abstact Klassen implementiert werden und müssen von erbenden, NICHT abstract, 
+	 Klassen mit "override" einen Methodenkörper gegeben werden.
+	 Beispiel für den Methodenkopf:
+	 public abstract void InformationenAusgeben();
+	 
   - virtual
+  -> virtual methoden haben einen Methodenkörper und können von erbenden Klassen mit "override" einen
+	 anderen Methodenkörper gegeben werden.
+	 Beispiel:
+	 public virtual string InformationenAusgeben()
+	 {
+		Console.WriteLine("Lorem Ipsum");
+	 }
+	   
   - override
+  -> kann bei geerbten virtual methoden und muss bei geerbten abstract methoden verwendet werden, um diesen
+     einen eigenen Methodenkörper zu geben.
+	 Beispiel:
+	 public override string InformationenAusgebenAusgeben()
+	 {
+		Console.WriteLine("Lorem Ipsum.");
+	 }
+	 
   - Polymorphie
+  -> Unterschiedliche Klassen können in der gleichen Liste gespeichert werden, weil sie alle
+	 von der gleichen Eltern-Klasse erben.
+  
 - Wie überschreibt man die Methode `virtual string ToString()`?
+-> mit dem Schlüsselwort "override":
+	public override string ToString()
+	{
+		return "Lorem Ipsum";
+	}
 
 
-## Git
+## Git Befehle
 - Begriffe
   - repository (Ist praktisch ein Ordner oder ein Projekt wo dazu gehörige Dateien verwaltet werden)
   - branch (Eine Bezeichnung bzw. ein Namensschild welches auf einen commit zeigt)
@@ -43,6 +82,7 @@ In [diesem cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Che
   - git fetch (Lädt alle Dateien aus der bereits verknüpften Online Repository runter)
   - git pull (Macht im Grunde genommen das selbe wie "git fetch" nur dass die Dateien mit den Lokalen gemerged werden)
   - git revert (...)
+
 
 ## Config Befehle
 git config --global user.name "[name]"
